@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+}
+.container {
+  /* background: rgb(208, 133, 240,); */
+  /* background: radial radial-gradient rgba( 208, 133, 240, 0.5) , rgba(169, 113, 193, 1); */
+  background-image: url(./bg.webp);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: white;
+  border: 0.5px solid rgb(189, 187, 187);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px grey;
+  display: flex;
+  flex-direction: column;
+}
+
+#input {
+  border: 0.5px solid rgb(189, 187, 187);
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(189, 187, 187, 0.3);
+  padding: 11px 10px;
+}
+
+/* Button styles */
+/* Button styles */
+#generate_qr {
+  width: 100%;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(5 8 63 / 99%);
+  padding: 11px 10px;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s; /* Add transitions for background color and transform */
+}
+
+/* Button styles on hover */
+#generate_qr:hover {
+  background-color: rgb(
+    5 8 63 / 99%
+  ); /* Change the background color on hover */
+  transform: scale(1.05); /* Scale the button on hover (1.05 times its size) */
+}
+
+#qrcode {
+  width: 250px;
+  margin: 20px;
+}
